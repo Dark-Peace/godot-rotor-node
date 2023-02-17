@@ -1,12 +1,12 @@
 
-# Rotor Node [Icon](https://github.com/Dark-Peace/godot-rotor-node/blob/main/addons/Rotor%20Node/icon.png)
+# Rotor Node ![Icon](https://github.com/Dark-Peace/godot-rotor-node/blob/main/addons/Rotor%20Node/icon.png)
 
 For Godot 4
 
 The Rotor is a node making its child rotate with different useful properties. Like keeping the child's rotation, rotating back and forth between 2 angles and more.
 
 It comes with a showcase scene where you can see all the properties in action.
-[Showcase](https://github.com/Dark-Peace/godot-rotor-node/blob/main/Godot_v4.0-beta17_win64_TQcBXUwlNW.gif)
+![Showcase](https://github.com/Dark-Peace/godot-rotor-node/blob/main/Godot_v4.0-beta17_win64_TQcBXUwlNW.gif)
 
 Features include:
 
