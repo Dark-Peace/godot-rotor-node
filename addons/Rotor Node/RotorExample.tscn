@@ -1,0 +1,142 @@
+[gd_scene load_steps=4 format=3 uid="uid://bd2r0yc08d72r"]
+
+[ext_resource type="Script" path="res://addons/Rotor Node/Rotor.gd" id="1_ty2ij"]
+[ext_resource type="Texture2D" uid="uid://dmmjrd3hnwewq" path="res://icon.png" id="2_5mcfv"]
+[ext_resource type="Texture2D" uid="uid://cqtaukcvqthyj" path="res://addons/Rotor Node/icon.png" id="3_2po6a"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Rotor" type="Node2D" parent="."]
+position = Vector2(120, 128)
+script = ExtResource("1_ty2ij")
+speed = 1
+keep_child_rotation = false
+
+[node name="Icon" type="Sprite2D" parent="Rotor"]
+position = Vector2(112, 3.05176e-05)
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon2" type="Sprite2D" parent="Rotor"]
+texture = ExtResource("3_2po6a")
+
+[node name="Rotor2" type="Node2D" parent="."]
+position = Vector2(512, 128)
+script = ExtResource("1_ty2ij")
+speed = 1
+
+[node name="Icon" type="Sprite2D" parent="Rotor2"]
+position = Vector2(112, 3.05176e-05)
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon2" type="Sprite2D" parent="Rotor2"]
+position = Vector2(-64, -64)
+rotation = -2.43299
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon3" type="Sprite2D" parent="Rotor2"]
+texture = ExtResource("3_2po6a")
+
+[node name="Rotor3" type="Node2D" parent="."]
+position = Vector2(896, 128)
+script = ExtResource("1_ty2ij")
+speed = 1
+remote_children = Array[NodePath]([NodePath("../Remote")])
+disabled_children = Array[NodePath]([NodePath("Icon3")])
+
+[node name="Icon" type="Sprite2D" parent="Rotor3"]
+position = Vector2(112, 3.05176e-05)
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon3" type="Sprite2D" parent="Rotor3"]
+position = Vector2(24, -40)
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon2" type="Sprite2D" parent="Rotor3"]
+texture = ExtResource("3_2po6a")
+
+[node name="Remote" type="Sprite2D" parent="."]
+modulate = Color(0.12549, 0.388235, 0.466667, 1)
+position = Vector2(824, 160)
+texture = ExtResource("2_5mcfv")
+
+[node name="Rotor4" type="Node2D" parent="."]
+position = Vector2(128, 344)
+script = ExtResource("1_ty2ij")
+speed = 1
+angle_total = 3.142
+
+[node name="Icon" type="Sprite2D" parent="Rotor4"]
+position = Vector2(112, 3.05176e-05)
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon2" type="Sprite2D" parent="Rotor4"]
+texture = ExtResource("3_2po6a")
+
+[node name="Rotor5" type="Node2D" parent="."]
+position = Vector2(512, 344)
+script = ExtResource("1_ty2ij")
+speed = 1
+angle_total = 3.142
+angle_decal = 1
+
+[node name="Icon" type="Sprite2D" parent="Rotor5"]
+position = Vector2(112, 3.05176e-05)
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon2" type="Sprite2D" parent="Rotor5"]
+texture = ExtResource("3_2po6a")
+
+[node name="Rotor6" type="Node2D" parent="."]
+position = Vector2(896, 344)
+script = ExtResource("1_ty2ij")
+speed = 1
+angle_total = 3.142
+when_end_reached = "GoBack"
+
+[node name="Icon" type="Sprite2D" parent="Rotor6"]
+position = Vector2(112, 3.05176e-05)
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon2" type="Sprite2D" parent="Rotor6"]
+texture = ExtResource("3_2po6a")
+
+[node name="Rotor7" type="Node2D" parent="."]
+position = Vector2(128, 528)
+script = ExtResource("1_ty2ij")
+speed = 2
+iterations = 6
+when_end_reached = "GoBack"
+
+[node name="Icon" type="Sprite2D" parent="Rotor7"]
+position = Vector2(112, 3.05176e-05)
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon2" type="Sprite2D" parent="Rotor7"]
+texture = ExtResource("3_2po6a")
+
+[node name="Rotor8" type="Node2D" parent="."]
+position = Vector2(512, 528)
+script = ExtResource("1_ty2ij")
+speed = 1
+use_flipping = 3
+flipping_angles = Vector2(1.571, 0)
+
+[node name="Icon" type="Sprite2D" parent="Rotor8"]
+position = Vector2(112, 3.05176e-05)
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon2" type="Sprite2D" parent="Rotor8"]
+texture = ExtResource("3_2po6a")
+
+[node name="Rotor9" type="Node2D" parent="."]
+position = Vector2(896, 512)
+script = ExtResource("1_ty2ij")
+speed = 1
+easing = 8
+
+[node name="Icon" type="Sprite2D" parent="Rotor9"]
+position = Vector2(112, 3.05176e-05)
+texture = ExtResource("2_5mcfv")
+
+[node name="Icon2" type="Sprite2D" parent="Rotor9"]
+texture = ExtResource("3_2po6a")
