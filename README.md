@@ -18,4 +18,4 @@ Features include:
  6. Can flip (horizontal/vertical) nodes past a certain angle.
  7. Rotation can be standard or using tweens
 
-Full documentation can be found here (if you read this it means that I haven't actually written the documentation yet) : [Documentation](https://docs.google.com/document/d/1y2aPsn72dOxQ-wBNGqLlQvrw9-SV_z12a1MradBglF4/edit?usp=sharing)
+Full documentation can be found here : [Documentation](https://docs.google.com/document/d/1y2aPsn72dOxQ-wBNGqLlQvrw9-SV_z12a1MradBglF4/edit?usp=sharing)
