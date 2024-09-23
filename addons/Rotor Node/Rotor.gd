@@ -64,7 +64,7 @@ func compute_valid_children():
 		if node in disabled_nodes: continue
 		valid_children.append(node)
 
-func _process(delta):
+func _physics_process(delta):
 	if speed == 0: return
 	
 	if easing == EASING.None: rotate(speed*delta*dir)
